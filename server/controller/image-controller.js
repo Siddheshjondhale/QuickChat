@@ -1,6 +1,6 @@
 import { response } from "express";
 import grid from 'gridfs-stream';
-const url = 'http://localhost:8000';
+const url = '/';
 
 import mongoose from "mongoose";
 let gfs,gridfsBucket;

@@ -15,7 +15,7 @@
         const [newMessageFlag, setNewMessageFlag]=useState(false)
 
         useEffect(()=>{
-            socket.current=io('ws://localhost:9000')
+            socket.current = io('https://messagingappsocket.onrender.com');
         }, [])
         return(
 
