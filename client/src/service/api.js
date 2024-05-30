@@ -1,8 +1,12 @@
 import axios from 'axios'
 // this file sends the datato the back end server which is running on a different port via the same url that is / add`
+<<<<<<< HEAD
 const url=`https://messagingappserver.onrender.com`
 // const url='http://localhost:8000'
 
+=======
+const url='http://localhost:8000'
+>>>>>>> bb7a127efe8a7f44d2bcd2d39ae998fea459c84d
 export const addUser= async (data)=>{
 
 try{
