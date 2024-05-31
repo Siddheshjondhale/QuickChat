@@ -1,6 +1,6 @@
 
 
-
+import React from 'react';
 //components
 import Messenger from "./components/Messenger";
 import { GoogleOAuthProvider } from '@react-oauth/google';
