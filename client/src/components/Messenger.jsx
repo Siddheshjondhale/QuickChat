@@ -1,11 +1,10 @@
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { AppBar, Toolbar, styled, Box } from '@mui/material';
-
 import { AccountContext } from '../context/AccountProvider';
 
 //components
 import ChatDialog from './chats/ChatDialog';
-import LoginDialog from './authentication/LoginDialog'
+import LoginDialog from './authentication/LoginDialog';
 
 const Component = styled(Box)`
     height: 100vh;
@@ -34,9 +33,7 @@ const Messenger = () => {
                 <>
                     <Header>
                         <Toolbar>
-
-                    <ChatDialog />
-
+                            <ChatDialog />
                         </Toolbar>
                     </Header>
                 </>
