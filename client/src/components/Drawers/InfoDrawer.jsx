@@ -1,7 +1,7 @@
+import React, { useContext } from 'react';
 import { styled, Drawer, Box, Typography } from '@mui/material';
 import { ArrowBack } from '@mui/icons-material';
 import Profile from './Profile';
-
 
 
 const Header = styled(Box)`
