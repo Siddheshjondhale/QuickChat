@@ -8,7 +8,7 @@ import AccountProvider from "./context/AccountProvider"
  
 function App() {
   return (
-    <GoogleOAuthProvider clientId="830401941025-bn0hoa66s5vbh27734jl8j50hlhvr6aj.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="658309305418-u9to8qjhan55t08hn27rhveqjotfn22m.apps.googleusercontent.com">
       <AccountProvider>
       <Messenger/> 
       </AccountProvider>
