@@ -53,8 +53,9 @@ useEffect(()=>{
             data.append('name',file.name)
             data.append('file',file)
            const response= await uploadFile(data)
-           setImageFile(response.data)
-           console.log('Uploaded file url in client side'+response.data)
+     setImageFile(`https://messagingappserver.onrender.com/file/${response.data.fileName}`);
+        console.log(`https://messagingappserver.onrender.com/file/${response.data.fileName}`);
+
         }
     }
     getImage();
