@@ -54,7 +54,7 @@ useEffect(()=>{
             data.append('file',file)
            const response= await uploadFile(data)
            setImageFile(response.data)
-           console.log(response.data)
+           console.log('Uploaded file url in client side'+response.data)
         }
     }
     getImage();
