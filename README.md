@@ -1,1 +1,1 @@
-# MessagingApp
+# Quickchat
